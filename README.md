@@ -11,3 +11,7 @@ Simple Ethereum Smart Contract that is a Multi-Signature Wallet. This is a walle
 - get balance of the wallet
 - get the number of transfers
 - get the status of specific transfer
+
+## Links
+https://ipfs.io/ipfs/QmQGvxbDHLArdrYUkypLYEzPQje3igV1SSRsnkpvqRx4hN
+https://ipfs.io/ipfs/QmNbAY6wWehWt1mTysTLkacuXnNkXWUCGuadGsokJgMEB7

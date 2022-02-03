@@ -58,7 +58,7 @@ balance = await web3.eth.getBalance(accounts[3]);
 balance
 '100000000000000000000'
 ```
-So the balance in default, lets continue
+So the balance is default, lets continue
 Sign the transfer from last wallet
 ```
 await instance.sign(0, {from: accounts[2]});

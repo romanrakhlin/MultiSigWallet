@@ -14,7 +14,7 @@ Simple Ethereum Smart Contract that is a Multi-Signature Wallet. This is a walle
 
 ## Test
 1) ```truffle compile```
-2) Copy and paste first three wallets to a array in out contract's code
+2) Copy and paste first three wallets to the array in our contract's code
 3) ```migrate```
 4) Lets test out our Multi Sign Wallet
 Depost funds to a wallet ```await instance.deposit({value: web3.utils.toWei("10", "ether"), from: accounts[0]});```

@@ -17,7 +17,10 @@ Simple Ethereum Smart Contract that is a Multi-Signature Wallet. This is a walle
 2) Copy and paste first three wallets to the array in our contract's code
 3) ```migrate```
 4) Lets test out our Multi Sign Wallet
-Depost funds to a wallet ```await instance.deposit({value: web3.utils.toWei("10", "ether"), from: accounts[0]});```
+Depost funds to a wallet 
+```
+await instance.deposit({value: web3.utils.toWei("10", "ether"), from: accounts[0]});
+```
 To check that that 10 ethers has been spent 
 ```
 let balance = await web3.eth.getBalance(accounts[0]);
@@ -42,9 +45,13 @@ BN {
 }
 ```
 6) Creating a new transfer from wallet number 0
-```await instance.transfer(accounts[3], web3.utils.toWei("30", "ether"), {from: accounts[0]});```
+```
+await instance.transfer(accounts[3], web3.utils.toWei("30", "ether"), {from: accounts[0]});
+```
 7) Sign transfer from rest two wallets
-```await instance.sign(0, {from: accounts[1]});```
+```
+await instance.sign(0, {from: accounts[1]});
+```
 Check the balance of fourth wallet
 ```
 balance = await web3.eth.getBalance(accounts[3]);

@@ -3,7 +3,7 @@ pragma solidity 0.8.11;
 contract MultiSigWallet {
 
     // these constants you should input yourself
-    address[] owners = [0x5B38Da6a701c568545dCfcB03FcB875f56beddC4, 0x4B20993Bc481177ec7E8f571ceCaE8A9e22C02db, 0xAb8483F64d9C6d1EcF9b849Ae677dD3315835cb2];
+    address[] owners = [0x7DC772E0bf71FF49d34DC3DdccFBF8d8e66A2B16, 0xbB01f60647cBB6bE36bC68767497758A80848Bf5, 0xA8b2a3209260e88f05B2bCfdc95c2B040C169B1e];
     uint signLimit = 3;
 
     // structure of a transfer
